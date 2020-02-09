@@ -1,0 +1,12 @@
+{
+    "name": "Jazz",
+    "slug": "jazz",
+    "author": {
+        "name": "GaugeK",
+        "link": "https://gitlab.com/GaugeK/startpage"
+    },
+    "preview": "preview.png",
+    "features": [
+        "links"
+    ]
+}
