@@ -15,7 +15,7 @@
 
 * {
 	font-family: "t kiwi Wide";
-	font-size: 10px;
+	font-size: 20px;
 }
 
 /*body, html {
@@ -28,7 +28,7 @@ html {
 	margin-top: -26px;
 }
 
-html {
+html, body {
 	width: 100vw;
 	height: 100vh;
 	padding: 0;
@@ -36,13 +36,13 @@ html {
 }
 
 main {
-	margin-top: auto;
 	display: flex;
+	justify-content: center;;
 	overflow-y: auto;
 	flex-flow: row wrap;
-	width: 380px;
 	position: relative;
-	top: -10px;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 #clock {
@@ -89,8 +89,8 @@ a:hover {	color: var(--fglight); }
 }
 
 main section {
-	flex: 1 1 25%;
 	box-sizing: border-box;
+	min-width: 300px;
 }
 
 /* Transparent blyrry UI */
@@ -130,13 +130,6 @@ a:hover, a:visited:hover {
 
 .title {
 	display: none;
-}
-
-body {
-	position:absolute;
-	top: 50%;
-	left: 50%;
-	transform:translate(-50%,-50%);
 }
 
 section {
