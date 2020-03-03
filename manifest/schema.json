@@ -7,15 +7,7 @@
       "items": {
         "type": "object",
         "title": "Link Group",
-        "required": [
-          "category"
-        ],
         "properties": {
-          "category": {
-            "type": "string",
-            "title": "Category",
-            "description": "Give this a category a name"
-          },
           "links": {
             "type": "array",
             "title": "Links",
